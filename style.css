@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'IBMPlexSans';
+    src: url('IBMPlex-SemiBold.ttf') format('woff2'), /* Modern Browsers */
+         url('IBMPlex-SemiBold.ttf') format('woff'); /* Older Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'IBMPlexSans', sans-serif !important;
+  }
+
+  /* Add more specific styles for other elements if needed */
+  .fs-1 {
+    font-size: 1rem !important; /* Customize the font size for fs-1 class */
+  }
+
+  .fs-3 {
+    font-size: 1.5rem !important; /* Customize the font size for fs-3 class */
+  }
+
+  .fs-5 {
+    font-size: 1.25rem !important; /* Customize the font size for fs-5 class */
+  }
+
+  .color1 {
+    color: #966A43 !important;
+  }
+
+  .color2 {
+    color: #3C765E !important;
+  }
